@@ -296,7 +296,7 @@ install_official() {
   echo 'echo -e "\t\033[91m |_|    \/    |_|  |_|  |_|   \_\  / /        \ \ " ' >>.bashrc
   echo 'wget -O /etc/versin_script_new https://raw.githubusercontent.com/khaledagn/VPS-AGN_English_Official/master/SCRIPT-v8.5x/Version &>/dev/null' >>.bashrc
   echo 'echo "" ' >>.bashrc
-  echo 'mess1="$(less /etc/VPS-AGN/message.txt)" ' >>.bashrc
+  echo 'echo -e "(Don't You Dare to Change my Password Master)" ' >>.bashrc
   echo 'echo "" ' >>.bashrc
   echo 'echo -e "\t\033[92mKALDAGVPN : SERVERS "' >>.bashrc
   echo 'echo -e "\t\e[1;33mVERSION: 1.0"' >>.bashrc
